@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+}
+
+html body {
+  height: 100%;
+}
+
+html body #cover {
+  background: #222 url("../img/stars.jpg") center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #cover #cover-caption {
+  width: 100%;
+}
