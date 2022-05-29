@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:ital,wght@0,700;1,400&display=swap");
+* {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html body .banner {
+  background-image: url(../images/universe.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+html body .banner .banner-heading {
+  margin-top: 250px;
+}
+
+html body .banner .banner-btn {
+  background-color: #111b1b !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html body .banner .banner-btn:hover {
+  background-color: #249797 !important;
+  border: none !important;
+}
+
+html body .blog .blog-img {
+  background-image: url(../images/earth.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+}
+
+html body footer ul {
+  list-style-type: none;
+}
